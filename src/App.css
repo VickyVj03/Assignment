@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.App .openModalBtn {
+  width: 200px;
+  height: 40px;
+  border: 2px solid #2b2b2b;
+  background-color: rgb(146, 242, 146);
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+h1 {
+  color: #000 !important;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.modal-btn {
+  background-color: aquamarine !important;
+  font-family: "Open Sans" !important;
+  font-weight: 600 !important;
+  color: #2b2b2b !important;
+  border-radius: 6px !important;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root,
+.toolbar {
+  background-color: rgb(41, 225, 182) !important;
+}
+
+.text-field {
+  margin-top: 2vh !important;
+  width: 40vh;
+}
+
+.round {
+  margin-top: 4px;
+  width: 15px;
+  height: 15px;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+
+.round-2 {
+  margin-top: 4px;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(117, 8, 88);
+  border-radius: 50%;
+}
+
+.flex-box {
+  float: right;
+  margin-right: 5vh !important;
+  display: flex;
+}
+
+.newbox {
+  margin-top: 4vh;
+  padding-bottom: 2vh;
+  width: 22vw;
+  padding-left: 2vw;
+  border: 2px solid blue;
+}
+
+.drop-down {
+  background-color: aliceblue !important;
+  color: #2b2b2b !important;
+  width: 15vw !important;
+  margin-left: -1vw !important;
+  margin-top: 2vh;
+}
+.drop-down-2 {
+  background-color: aliceblue !important;
+  color: #2b2b2b !important;
+  width: 15vw !important;
+  margin-left: 1vw !important;
+  margin-top: 2vh;
+}
+
+.add-schema-link {
+  margin-left: 1vw !important;
+  margin-top: 2vh !important;
+  text-decoration: underline !important;
+  color: rgb(18, 166, 92) !important;
+  font-weight: bold;
+  text-underline-offset: 3px;
+}
+
+.remove-btn {
+  margin-left: 2vh !important;
+  margin-top: 2vh !important;
+  width: 10% !important;
+  height: 4vh !important;
+}
+
+
+.save-btn{
+  padding-left: 1vh !important;
+  padding-right: 1vh !important;
+  margin-top: 10vh;
+  margin-left: 5vh;
+  border: 2px solid rgb(41, 225, 182) !important;
+  border-radius: 5px !important;
+  color: aquamarine !important;
+}
